@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isEnumerableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-enumerable-property@deno/mod.js';
+import isEnumerableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-enumerable-property@v0.1.0-deno/mod.js';
 ```
 
 #### isEnumerableProperty( value, property )
@@ -115,7 +115,7 @@ bool = isEnumerableProperty( value, 'constructor' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isEnumerableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-enumerable-property@deno/mod.js';
+import isEnumerableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-enumerable-property@v0.1.0-deno/mod.js';
 
 var bool = isEnumerableProperty( { 'a': 'b' }, 'a' );
 // returns true
