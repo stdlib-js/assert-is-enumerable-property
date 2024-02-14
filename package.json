@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-enumerable-property",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Test if an object's own property is enumerable.",
   "license": "Apache-2.0",
   "author": {
@@ -37,9 +37,9 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-integer": "^0.1.0",
-    "@stdlib/assert-is-nan": "^0.1.1",
-    "@stdlib/assert-is-string": "^0.1.1"
+    "@stdlib/assert-is-integer": "^0.2.0",
+    "@stdlib/assert-is-nan": "^0.2.0",
+    "@stdlib/assert-is-string": "^0.2.0"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.1.1",
