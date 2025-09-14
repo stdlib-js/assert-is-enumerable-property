@@ -35,14 +35,32 @@ limitations under the License.
 
 > Test if an object's own property is enumerable.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert-is-enumerable-property
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import isEnumerableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-enumerable-property@esm/index.mjs';
+var isEnumerableProperty = require( '@stdlib/assert-is-enumerable-property' );
 ```
 
 #### isEnumerableProperty( value, property )
@@ -114,13 +132,8 @@ bool = isEnumerableProperty( value, 'constructor' );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import isEnumerableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-enumerable-property@esm/index.mjs';
+```javascript
+var isEnumerableProperty = require( '@stdlib/assert-is-enumerable-property' );
 
 var bool = isEnumerableProperty( { 'a': 'b' }, 'a' );
 // returns true
@@ -148,10 +161,6 @@ bool = isEnumerableProperty( { 'null': false }, null );
 
 bool = isEnumerableProperty( { '[object Object]': false }, {} );
 // returns true
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -185,7 +194,7 @@ bool = isEnumerableProperty( { '[object Object]': false }, {} );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -252,15 +261,15 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-configurable-property]: https://github.com/stdlib-js/assert-is-configurable-property/tree/esm
+[@stdlib/assert/is-configurable-property]: https://github.com/stdlib-js/assert-is-configurable-property
 
-[@stdlib/assert/is-enumerable-property-in]: https://github.com/stdlib-js/assert-is-enumerable-property-in/tree/esm
+[@stdlib/assert/is-enumerable-property-in]: https://github.com/stdlib-js/assert-is-enumerable-property-in
 
-[@stdlib/assert/is-nonenumerable-property]: https://github.com/stdlib-js/assert-is-nonenumerable-property/tree/esm
+[@stdlib/assert/is-nonenumerable-property]: https://github.com/stdlib-js/assert-is-nonenumerable-property
 
-[@stdlib/assert/is-readable-property]: https://github.com/stdlib-js/assert-is-readable-property/tree/esm
+[@stdlib/assert/is-readable-property]: https://github.com/stdlib-js/assert-is-readable-property
 
-[@stdlib/assert/is-writable-property]: https://github.com/stdlib-js/assert-is-writable-property/tree/esm
+[@stdlib/assert/is-writable-property]: https://github.com/stdlib-js/assert-is-writable-property
 
 <!-- </related-links> -->
 
