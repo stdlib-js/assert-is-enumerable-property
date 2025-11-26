@@ -4,15 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-14)
+## Unreleased (2025-11-26)
 
 <section class="issues">
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#8050](https://github.com/stdlib-js/stdlib/issues/8050)
+[#8050](https://github.com/stdlib-js/stdlib/issues/8050), [#8559](https://github.com/stdlib-js/stdlib/issues/8559)
 
 </section>
 
@@ -24,6 +24,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`f5f8c09`](https://github.com/stdlib-js/stdlib/commit/f5f8c0909696ae0d81abb67a5839f4317490ef2f) - **chore:** fix JavaScript lint errors [(#8561)](https://github.com/stdlib-js/stdlib/pull/8561) _(by kaushal-kumar-it, Athan Reines)_
 -   [`9f40b8f`](https://github.com/stdlib-js/stdlib/commit/9f40b8fabeda81fce95e140b59ffc20eef4f7990) - **chore:** fix JavaScript lint errors [(#8073)](https://github.com/stdlib-js/stdlib/pull/8073) _(by Vara Rahul Rajana, Athan Reines)_
 -   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`f9651e6`](https://github.com/stdlib-js/stdlib/commit/f9651e6411b4ebd3c95dcc6b46c02e6d5be009fa) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
@@ -38,11 +39,12 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Philipp Burckhardt
 -   Vara Rahul Rajana
+-   kaushal-kumar-it
 
 </section>
 
