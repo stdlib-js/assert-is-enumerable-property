@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isEnumerableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-enumerable-property@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-enumerable-property/tags). For example,
+
+```javascript
 import isEnumerableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-enumerable-property@v0.2.3-esm/index.mjs';
 ```
 
@@ -120,7 +125,7 @@ bool = isEnumerableProperty( value, 'constructor' );
 <body>
 <script type="module">
 
-import isEnumerableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-enumerable-property@v0.2.3-esm/index.mjs';
+import isEnumerableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-enumerable-property@esm/index.mjs';
 
 var bool = isEnumerableProperty( { 'a': 'b' }, 'a' );
 // returns true
