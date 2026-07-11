@@ -1,4 +1,4 @@
-"use strict";var t=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var s=t(function(I,n){
+"use strict";var t=function(e,r){return function(){try{return r||e((r={exports:{}}).exports,r),r.exports}catch(i){throw (r=0, i)}};};var s=t(function(I,n){
 var m=Object.prototype.propertyIsEnumerable;n.exports=m
 });var c=t(function(S,a){
 var v=s(),u;function b(){return!v.call("beep","0")}u=b();a.exports=u
